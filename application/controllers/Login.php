@@ -9,4 +9,8 @@ class Login extends CI_Controller
 		parent::__construct();
 		$this->load->helper('url');
 	}
+
+	public function index(){
+		$this->load->view('student/login.php');
+	}
 }
