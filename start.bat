@@ -6,5 +6,5 @@ echo ---------------------------
 echo    SERVER HAS NOW STARTED
 echo ---------------------------
 
-explorer "http://localhost:3000"
-php -S localhost:3000
+explorer "http://localhost:8000"
+php -S localhost:8000
