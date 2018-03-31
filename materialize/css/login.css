@@ -1,0 +1,83 @@
+body {
+	background: #e2d7ed3d;
+}
+
+.logo-center{
+	margin: 90px 60px 50px 60px;
+}
+
+.logo-img {
+	max-height: 80px!important;
+}
+
+.card-custom {
+	margin: 60px 30px 50px 30px;
+	padding: 20px 30px 20px 30px;
+	max-width: 500px;
+	height: 90%;
+	box-shadow: none;
+	border-radius: 10px;
+	background: #fff;
+	border: 3px solid #ede7f6;
+}
+
+.h6-caption{
+	color: #9575cd;
+	font-weight: 700;
+	text-align: left;
+	margin-bottom: 30px;
+}
+
+.btn-custom-login {
+	width: 100% !important;
+	margin-top: 10px;
+	margin-left: 5px;
+	border-radius: 10px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	box-shadow: none;
+
+}
+
+.h6-login-need-account{
+	text-align: left;
+}
+
+.input-field input {
+	border: 1px solid #c1cad2!important;
+	width: 100%!important;
+	padding-left: 6px!important;
+}
+
+.input-field {
+	color: grey;
+	margin: 10px 0 10px 0;
+}
+
+input[type=text]:not(.browser-default){
+	border-radius: 10px;
+	font-size: 1em;
+}
+input[type=password]:not(.browser-default){
+	border-radius: 10px;
+	font-size: 1em;
+}
+
+
+input[type=text]:not(.browser-default):focus:not([readonly]) {
+   
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+}
+
+input[type=password]:not(.browser-default):focus:not([readonly]) {
+   
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+}
+
+input[type=email]:not(.browser-default):focus:not([readonly]) {
+   
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+}
